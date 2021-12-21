@@ -1,0 +1,372 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+header {
+	background-color: #000000;
+}
+
+/*Barra de navegacion*/
+header nav {
+	background-color: #000000;
+}
+nav .container-fluid .navbar-brand i {
+	padding-right: 5px;
+}
+
+
+/*Estilo titulo header pagina principal*/
+.titulo-header {
+	display: flex;
+	justify-content: center;
+	padding-top: 70px;
+}
+
+.titulo-header h1 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 40px;
+	color: #EDE4E4;
+}
+
+/*Estilo parrafo header pagina principal*/
+.parrafo-header {
+	display: flex;
+	justify-content: center;
+}
+
+.parrafo-header p {
+	font-family: 'Poppins', sans-serif;
+	color: #EDE4E4;
+}
+
+/*Estilo informacion header pagina principal*/
+.info-header {
+	display: flex;
+	justify-content: center;
+}
+
+.info-header a {
+	color: #3265EE;
+}
+
+.info-header a i {
+	padding-left: 5px;
+}
+
+
+/*Estilo imagen header pagina principal*/
+.imagen-header {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.imagen-header img {
+	width: 100%;
+	animation-duration: 2s;
+	animation-name: opacar;
+}
+
+@keyframes opacar {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+
+/*Estilo seccion uno pagina principal*/
+
+.seccion-1 {
+	padding-top: 30px;
+}
+
+.titulo-s1 {
+	display: flex;
+	justify-content: center;
+}
+
+.titulo-s1 h2 {
+	font-family: 'Oswald', sans-serif;
+	color: black;
+}
+
+.titulo-s1 i{
+	padding-right: 5px;
+}
+
+.parrafo-s1 {
+	display: flex;
+	justify-content: center;
+}
+
+.parrafo-s1 p {
+	font-family: 'Poppins', sans-serif;
+	color: black;
+}
+
+.info-seccion1 {
+	display: flex;
+	justify-content: center;
+}
+
+.info-seccion1 a {
+	color: #3265EE;
+}
+
+.info-seccion1 a i {
+	padding-left: 5px;
+}
+
+
+.imagen-seccion1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.imagen-seccion1 img {
+	width: 100%;
+	height: auto;
+	animation-duration: 2s;
+	animation-name: opacar;
+}
+
+@keyframes opacar {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+/*Estilos seccion dos columna 1 pagina principal*/
+
+.seccion-2 .colum1{
+	border: solid 1px black;
+	padding: 1rem;
+	background-color: white;
+}
+
+.seccion-2 .colum1 h2 {
+	display: flex;
+	justify-content: center;
+
+}
+
+.seccion-2 .colum1 p {
+	display: flex;
+	justify-content: center;
+}
+
+.seccion-2 .info-seccion2{
+	display: flex;
+	justify-content: center;
+}
+
+.seccion-2 .info-seccion2 a i {
+	padding-left: 5px;
+}
+
+.seccion-2 .colum1 img {
+	width: 100%;
+	animation-duration: 2s;
+	animation-name: opacar;
+}
+
+@keyframes opacar {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+/*Estilo seccion dos columna 2 pagina principal*/
+.seccion-2 .colum2 {
+	border: solid 1px black;
+	padding: 1rem;
+	background-color: white;
+}
+
+.seccion-2 .colum2 h2 {
+	display: flex;
+	justify-content: center;
+}
+
+.seccion-2 .colum2 p {
+	display: flex;
+	justify-content: center;
+}
+
+.seccion-2 .info-seccion2 a {
+	display: flex;
+	justify-content: center;
+}
+
+.seccion-2 .info-seccion2 a i {
+	padding-left: 5px;
+}
+
+.seccion-2 .colum2 img {
+	width: 100%;
+	animation-duration: 2s;
+	animation-name: opacar;
+}
+
+@keyframes opacar {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+/*Estilo del footer*/
+footer {
+	background-color: black;
+	height: 200px;
+	padding-top: 30px;
+}
+
+
+.parrafo-footer {
+	display: flex;
+	justify-content: center;
+}
+
+.parrafo-footer {
+	font-family: 'Oswald', sans-serif;
+	color: white;
+}
+
+.insta {
+	display: flex;
+	justify-content: center;
+}
+
+.insta a img {
+	width: 50px;
+	height: 50px;
+}
+
+.face {
+	display: flex;
+	justify-content: center;
+}
+.face a img {
+	width: 50px;
+	height: 50px;
+}
+
+/*Estilo pagina iPhone 13 (boton "mas informacion")*/
+.titulo-ip13 {
+	display: flex;
+	justify-content: center;
+	background-color: black;
+}
+
+.titulo-ip13 h3 {
+	color: #F3EBEB;
+}
+
+/*Estilo seccion uno iPhone 13*/
+
+/*Estilo iphone13 pro*/ 
+main .row .subtitulo1 {
+	border-bottom: 1px solid #E3DFDC;
+	padding-top: 10px;
+}
+
+.subtitulo1 .titulo-subtitulo1{
+	display: flex;
+	justify-content: center;
+}
+
+.subtitulo1 .titulo-subtitulo1 h6 {
+	color: #2A2928;
+}
+
+.subtitulo1 .img-subtitulo1 {
+	display: flex;
+	justify-content: center;
+}
+
+.subtitulo1 .img-subtitulo1 img {
+	width: 100%;
+	animation-duration: 4s;
+	animation-name: opacar;
+}
+
+@keyframes opacar {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+
+
+
+/*Estilo iphone13 pro max*/ 
+main .row .subtitulo2 {
+	border-bottom: 1px solid #E3DFDC;
+	padding-top: 10px;
+}
+
+.subtitulo2 .titulo-subtitulo2 {
+	display: flex;
+	justify-content: center;
+}
+
+.subtitulo2 .titulo-subtitulo2 h6{
+	color: #2A2928;
+}
+
+
+.subtitulo2 .img-subtitulo2 {
+	display: flex;
+	justify-content: center;
+}
+
+.subtitulo2 .img-subtitulo2 img {
+	width: 100%;
+	animation-duration: 4s;
+	animation-name: opacar;
+}
+
+@keyframes opacar {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+
+
+/*Estilo seccion dos iPhone 13*/
+.seccion2-ip13 {
+	padding-top: 14px;
+	background-image: url(../Utils/Imagenes/imgFondoip13.jpg);
+	background-size: cover;
+}
+.seccion2-ip13 .colum-ip13 {
+	display: flex;
+	justify-content: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
